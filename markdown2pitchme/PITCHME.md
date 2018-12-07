@@ -29,7 +29,7 @@
 
 +++
 
-### 2-1 その場
+### 2-1 inline
 画像パスは pitchme.md の位置にかかわらず repo ルートからの相対で指定。
 
 ![image.jpg](markdown2pitchme/image.jpg)
@@ -38,5 +38,18 @@
 
 +++
 
-### 2-2
-小見出しを中見出しスライドの↓に。
+### 2-2 background
+---?image=markdown2pitchme/image.jpg
+
+`---?image=markdown2pitchme/image.jpg` ← こうっす
+
++++
+
+### 2-3 backgroundの波及
+background設定って次のスライドにも波及する？
+
+- する場合 → どうやって無効にする？
+- しない場合 → 全体に波及させたい場合はどうする？
+
+## スライド3
+スライドスライド
