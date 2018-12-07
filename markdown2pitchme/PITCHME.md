@@ -36,12 +36,12 @@
 
 ここでは `markdown2pitchme/image.jpg` ← こう
 
-+++
++++?image=markdown2pitchme/image.jpg
 
 ### 2-2 background
----?image=markdown2pitchme/image.jpg
+`?image=markdown2pitchme/image.jpg` ← こう
 
-`---?image=markdown2pitchme/image.jpg` ← こうっす
+区切りの `---` あるいは `+++` の直後に書く感じ？
 
 +++
 
