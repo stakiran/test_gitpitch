@@ -7,3 +7,4 @@
   - https://gitpitch.com/stakiran/test_gitpitch?p=markdown2pitchme
   - Markdown で書いた大中小見出し構造文書を機械的にスライドにしたい
   - pitchme_in_subdir の方が開かれてしまうのはなぜだ……
+  - 違う。**直前に開いた方(root or p=pitchme_in_subdir)が呼び出されている……** バグ？
