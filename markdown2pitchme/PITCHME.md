@@ -22,14 +22,19 @@
 ## スライド2
 中見出しを→の単位に。
 
-![image.jpg](image.jpg)
-
 画像はどのように見せようか？
+
+- サイズは 1MB 以内に抑えてね
+- その場に埋め込むのと、背景として埋め込むのがあるよ
 
 +++
 
-### 2-1
-小見出しを中見出しスライドの↓に。
+### 2-1 その場
+画像パスは pitchme.md の位置にかかわらず repo ルートからの相対で指定。
+
+![image.jpg](markdown2pitchme/image.jpg)
+
+ここでは `markdown2pitchme/image.jpg` ← こう
 
 +++
 
